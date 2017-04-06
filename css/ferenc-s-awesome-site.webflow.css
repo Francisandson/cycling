@@ -116,18 +116,27 @@ p {
 }
 
 .hero-subtitle {
-  color: rgba(248, 199, 41, .7);
-  font-size: 16px;
+  margin-top: 10px;
+  font-family: Montserrat, sans-serif;
+  color: #0cdda2;
+  font-size: 18px;
   line-height: 22px;
+  font-weight: 400;
+  text-align: center;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  text-transform: none;
+}
+
+.hero-subtitle._1 {
+  margin-top: 50px;
+  color: #fff;
 }
 
 .subpage-background {
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .6) 2%, rgba(0, 0, 0, .6) 98%), url('../images/photo-1442975433132-cb9580b88538.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .6) 2%, rgba(0, 0, 0, .6) 98%), url('../images/photo-1442975433132-cb9580b88538.jpg');
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/cycling-economy.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/cycling-economy.jpg');
   background-position: 0px 0px, 50% 50%;
-  background-size: auto, cover;
+  background-size: auto, auto;
   background-repeat: repeat, no-repeat;
   background-attachment: scroll, fixed;
   font-weight: 300;
@@ -422,10 +431,10 @@ p {
   margin-right: 9px;
   margin-left: 9px;
   padding: 11px 26px;
-  border-color: #f7c72a;
+  border-color: #0cdda2;
   -webkit-transition: border 200ms ease, color 200ms ease;
   transition: border 200ms ease, color 200ms ease;
-  color: #f7c72a;
+  color: #0cdda2;
   font-size: 18px;
   text-transform: uppercase;
 }
